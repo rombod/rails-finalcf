@@ -1,0 +1,102 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.products {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-family: "Algerian", Georgia, Serif;
+    font-size: 100px;
+    color:  #944dff;
+    background-color: #d5ff80;
+}
+
+
+table {	
+	margin: 0 auto;
+}
+
+
+.col-sm-2 .col-md-4 .comp {
+    	
+	font-family: "Algerian", Georgia, Serif;
+    font-size: 20px;
+    color:  #944dff;
+    background-color: #47d1d1;	
+}
+
+
+.btn {
+  font-size:18px;
+  font-weight: 200;
+  background-color: rgb(0, 255, 0);
+  color: white;   
+}
+
+
+.btn:hover {
+  font-size:18px;
+  font-weight: 200;
+  background-color: rgb(51, 153, 255);
+  color: white; 
+}
+
+
+.row {
+	text-align: center;
+}
+
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+#formfor {
+
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Algerian", Georgia, Serif;
+    font-size: 100px;
+    color:  #944dff;
+    background-color: #d5ff80;
+
+}
+
+/**** Show page ****/
+
+.prod_show {
+  border: 2px solid #ccddff;
+  border-radius: 5px; 
+  box-shadow: -10px -10px 5px #55a616; 
+  margin-top: 50px;
+
+}
+
+.ratingtitle p {
+  font-family: "Algerian", Georgia, Serif;
+    font-size: 50px;
+    color:  #944dff;
+    background-color: #d5ff80;
+
+}
+
+.ratingtext p {
+    font-family: "Algerian", Georgia, Serif;
+    font-size: 20px;
+    color:  #944dff;
+    text-align: center;
+    border: 2px solid #ccddff;
+  border-radius: 5px; 
+  box-shadow: -10px -10px 5px #55a616; 
+  margin-bottom: 70px;
+}
+
+.averating p {
+  font-family: "Algerian", Georgia, Serif;
+    font-size: 20px;
+    color:  #944dff;
+}
+
+

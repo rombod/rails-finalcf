@@ -1,0 +1,296 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.head { 
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	background-color: #d5ff80;
+    height: 50px;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: green;
+
+}
+
+
+#nav .navbar {
+  background-color: #6666ff;
+  
+
+  }
+
+
+#nav .navbar a {
+  color: #000000;
+}
+
+footer .name {
+  
+  margin-top: 30px;
+  border: 2px solid #a1a1a1;
+    
+    background-color: #6666ff;
+    
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+footer #copyright {
+  text-align: center;
+}
+
+
+/**** index page ****/
+
+
+
+header h1 {
+  font-size: 60px;
+  margin-top: 120px;
+}
+
+
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #777777;
+}
+
+
+#about .maind {
+  margin-top: 30px;
+  height: 80px;
+  border: 2px solid;
+  font-family: "Vineta BT", Georgia, Serif;
+font-size: 20px;
+color:  #006600;
+text-align: center;
+padding-top: 15px;
+}
+
+
+#about .row {
+  margin-bottom: 50px;
+  text-align: center;
+}
+#about .glyphicon {
+  font-size: 32px;
+  color: #428bca;
+  margin-bottom: 10px;
+  border: 1px solid #6666ff;
+  width: 80px;
+  border-radius: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+#about h3 {
+  margin-bottom: 20px;
+  color: #6666ff;
+}
+#about .glyphicon {
+  -webkit-transition:0.3s;
+  -moz-transition:0.3s;
+  -o-transition:0.3s;
+  transition:0.3s;
+
+}
+
+
+
+#about .col-md-3:hover .glyphicon {
+  border: 1px solid #6666ff;
+  background: #6666ff;
+  color: #fff;
+}
+#about2 {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  background: #eaeaea;
+  text-align: right;
+
+  -moz-transition:0.3s;
+  -o-transition:0.3s;
+  transition:0.3s;
+}
+#about2 .glyphicon {
+  font-size: 32px;
+  color: #428bca;
+  margin-bottom: 10px;
+  border: 1px solid #AAA;
+  width: 80px;
+  border-radius: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+
+
+.expan .row .col-md-4 {
+    margin: 40px 70PX 40PX 20PX;
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #6666ff;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    
+    display: inline-block; 
+
+}
+
+
+/**** about_us page ****/
+
+.about_us {
+  height: 1700px;
+}
+
+.about_us .container .row1 {
+  margin-bottom: 30px;
+    border: 2px solid;
+    border-bottom-right-radius: 2em;
+    height: 100px;
+}
+
+.about_us .row1 .wwatit {
+font-family: "Vineta BT", Georgia, Serif;   
+font-size: 40px;
+color:  #006600;
+text-align: left;
+}
+
+.about_us .container .row2 {
+  height: 700px;
+  border: 2px solid;
+}
+
+
+.about_us .container .row2 .col-md-4 {
+  display: inline-block;
+}
+
+.about_us .wwad {
+font-family: "Vineta BT", Georgia, Serif;
+font-size: 20px;
+color:  #006600;
+text-align: left;
+}
+
+.about_us .row3 {
+  height: 200px;
+  border: 2px solid;
+  padding-top: 15px; 
+  margin-top: 15px;
+}
+
+.about_us .phil {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 40px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .phild {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 20px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .row4 {
+  height: 350px;
+  border: 2px solid;
+  padding-top: 15px; 
+  margin-top: 15px;
+}
+
+.about_us .map {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 40px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .mapd {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 20px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .maplist {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 20px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .row5 {
+  height: 250px;
+  border: 2px solid;
+  padding-top: 15px; 
+  margin-top: 15px;
+}
+
+.about_us .abl {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 40px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .abld {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 20px;
+color:  #006600;
+text-align: left;
+
+}
+
+.about_us .abllist {
+font-family: "Vineta BT", Georgia, Serif; 
+font-size: 20px;
+color:  #006600;
+text-align: left;
+
+}
+
+
+
+
+
+/**** Contact page ****/
+
+
+.formall .col-md-8 {
+  margin-left: 250px;
+} 
+
+.formall .form-group {
+  font-family: "Vineta BT", Georgia, Serif;
+font-size: 20px;
+color:  #006600;
+
+}
+
+.formall .form-control {
+    background-color: white;
+}
+
+.formall .form-control:hover {
+    background-color: #e6f2ff;
+}
