@@ -4,8 +4,15 @@ Rails.application.routes.draw do
 
 
   
+  
+
+  
+
 resources :orders, only: [:index, :show, :create, :destroy]
-resources :products  
+resources :products 
+
+  get 'contact', to: 'messages#new', as: 'contact'
+post 'contact', to: 'messages#create' 
 
 
   root 'static_pages#index'
@@ -18,9 +25,9 @@ resources :products
 
   get 'landing_page', to: 'static_pages#landing_page'
 
-  post 'static_pages/thank_you'
-
   
+
+  post 'thank_you', to: 'static_pages#thank_you'  
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
