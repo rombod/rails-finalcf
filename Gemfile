@@ -58,7 +58,9 @@ group :test, :production do
     gem 'thin'
 end
 
-
+# Forms, mail {
+gem 'mail_form'
+gem 'simple_form'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
