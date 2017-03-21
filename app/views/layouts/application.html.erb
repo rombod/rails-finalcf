@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>cfproject</title>
+    <title>finalcf</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag 'application.css', media: 'all', 'data-turbolinks-track' => true %>
   
@@ -37,13 +37,26 @@
         <ul class="nav navbar-nav">
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index">Home</a></li>
-          <li><a href="about">About us</a></li>          
           
+          <li><%= link_to "Home", index_path %></li>
+                   
+          <li><%= link_to "About us", about_path %></li>
           <li><%= link_to "Products", products_path %></li> 
-                      <li><%= link_to "landing page", landing_page_path %></li>                
+                      <li><%= link_to "landing page", landing_page_path %></li>
+
+                      <li>
+                      <% if user_signed_in? %>
+                      <%= link_to('Logout', destroy_user_session_path) %>
+                      <% else %>
+                      <%= link_to('Login', new_user_session_path) %>
+                      <% end %>
+                      </li>
+
+
+
+
           <li><%= link_to "Contact", contact_path %></li>           
-          <!--<li><a href="contact">Contact us</a></li>-->
+          
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
@@ -52,7 +65,13 @@
 
 
 
+            <% if notice %>
+             <p id="notice" class="alert alert-info"><%= notice %></p>
+           <% end %>
 
+           <% if alert %>
+             <p id="notice" class="alert alert-info"><%= alert %></p>
+           <% end %>
            
 
 
