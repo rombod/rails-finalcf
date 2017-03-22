@@ -79,3 +79,5 @@ gem 'rails-controller-testing'
 gem 'factory_girl'
 
 gem 'stripe'
+
+gem 'jquery-rails'
