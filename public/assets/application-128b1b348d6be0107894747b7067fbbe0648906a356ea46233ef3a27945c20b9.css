@@ -1,0 +1,578 @@
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  font-size: 2em;
+}
+
+@font-face {
+  font-family: "raty";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/raty.eot");
+  src: url("fonts/raty.eot?#iefix") format("embedded-opentype");
+  src: url("fonts/raty.svg#raty") format("svg");
+  src: url("fonts/raty.ttf") format("truetype");
+  src: url("fonts/raty.woff") format("woff");
+}
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "raty";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.cancel-on-png:before {
+  content: "\e600";
+}
+
+.cancel-off-png:before {
+  content: "\e601";
+}
+
+.star-on-png:before {
+  content: "\f005";
+}
+
+.star-off-png:before {
+  content: "\f006";
+}
+
+.star-half-png:before {
+  content: "\f123";
+}
+/* line 6, /Users/n/finalcf/app/assets/stylesheets/messages.scss */
+.messagepage {
+  margin: auto;
+  background-color: #cce6ff;
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+/* line 17, /Users/n/finalcf/app/assets/stylesheets/messages.scss */
+.form-group {
+  margin-left: 50px;
+}
+
+/* line 22, /Users/n/finalcf/app/assets/stylesheets/messages.scss */
+.form-group .btn {
+  background-color: #3366ff;
+}
+/* line 5, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.products {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Algerian", Georgia, Serif;
+  font-size: 100px;
+  color: #944dff;
+  background-color: #d5ff80;
+}
+
+/* line 16, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+table {
+  margin: 0 auto;
+}
+
+/* line 21, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.col-sm-2 .col-md-4 .comp {
+  font-family: "Algerian", Georgia, Serif;
+  font-size: 20px;
+  color: #944dff;
+  background-color: #47d1d1;
+}
+
+/* line 30, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.btn {
+  font-size: 18px;
+  font-weight: 200;
+  background-color: lime;
+  color: white;
+}
+
+/* line 38, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.btn:hover {
+  font-size: 18px;
+  font-weight: 200;
+  background-color: #3399ff;
+  color: white;
+}
+
+/* line 46, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.row {
+  text-align: center;
+}
+
+/* line 51, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.img-responsive {
+  margin: 0 auto;
+}
+
+/* line 55, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+#formfor {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Algerian", Georgia, Serif;
+  font-size: 100px;
+  color: #944dff;
+  background-color: #d5ff80;
+}
+
+/**** Show page ****/
+/* line 69, /Users/n/finalcf/app/assets/stylesheets/products.scss */
+.show-thumbnail {
+  background: rgba(173, 216, 230, 0.4);
+}
+/* line 1, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 10, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 17, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 26, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 30, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 36, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 40, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 52, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 56, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 62, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 70, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /Users/n/finalcf/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 5, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.head {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  background-color: #d5ff80;
+  height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* line 14, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: green;
+}
+
+/* line 22, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#nav .navbar {
+  background-color: #6666ff;
+}
+
+/* line 29, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#nav .navbar a {
+  color: #000000;
+}
+
+/* line 33, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+footer .name {
+  margin-top: 30px;
+  border: 2px solid #a1a1a1;
+  background-color: #6666ff;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+/* line 44, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+footer #copyright {
+  text-align: center;
+}
+
+/**** index page ****/
+/* line 53, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+header h1 {
+  font-size: 60px;
+  margin-top: 120px;
+}
+
+/* line 60, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #777777;
+}
+
+/* line 67, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about .maind {
+  margin-top: 30px;
+  height: 80px;
+  border: 2px solid;
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* line 79, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about .row {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* line 83, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about .glyphicon {
+  font-size: 32px;
+  color: #428bca;
+  margin-bottom: 10px;
+  border: 1px solid #6666ff;
+  width: 80px;
+  border-radius: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* line 93, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about h3 {
+  margin-bottom: 20px;
+  color: #6666ff;
+}
+
+/* line 97, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about .glyphicon {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 107, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about .col-md-3:hover .glyphicon {
+  border: 1px solid #6666ff;
+  background: #6666ff;
+  color: #fff;
+}
+
+/* line 112, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about2 {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  background: #eaeaea;
+  text-align: right;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 122, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+#about2 .glyphicon {
+  font-size: 32px;
+  color: #428bca;
+  margin-bottom: 10px;
+  border: 1px solid #AAA;
+  width: 80px;
+  border-radius: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+/* line 136, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.expan .row .col-md-4 {
+  margin: 40px 70PX 40PX 20PX;
+  border: 2px solid #a1a1a1;
+  padding: 10px 40px;
+  background: #6666ff;
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
+  display: inline-block;
+}
+
+/**** about_us page ****/
+/* line 152, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us {
+  height: 1700px;
+}
+
+/* line 156, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .container .row1 {
+  margin-bottom: 30px;
+  border: 2px solid;
+  border-bottom-right-radius: 2em;
+  height: 100px;
+}
+
+/* line 163, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .row1 .wwatit {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 40px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 170, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .container .row2 {
+  height: 700px;
+  border: 2px solid;
+}
+
+/* line 176, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .container .row2 .col-md-4 {
+  display: inline-block;
+}
+
+/* line 180, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .wwad {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 187, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .row3 {
+  height: 200px;
+  border: 2px solid;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+/* line 194, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .phil {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 40px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 202, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .phild {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 210, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .row4 {
+  height: 350px;
+  border: 2px solid;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+/* line 217, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .map {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 40px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 225, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .mapd {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 233, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .maplist {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 241, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .row5 {
+  height: 250px;
+  border: 2px solid;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+/* line 248, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .abl {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 40px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 256, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .abld {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/* line 264, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.about_us .abllist {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+  text-align: left;
+}
+
+/**** Contact page ****/
+/* line 279, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.formall .col-md-8 {
+  margin-left: 250px;
+}
+
+/* line 283, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.formall .form-group {
+  font-family: "Vineta BT", Georgia, Serif;
+  font-size: 20px;
+  color: #006600;
+}
+
+/* line 290, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.formall .form-control {
+  background-color: white;
+}
+
+/* line 294, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.formall .form-control:hover {
+  background-color: #e6f2ff;
+}
+
+/**** search form ****/
+/* line 300, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.searchfor {
+  margin-bottom: 15px;
+  background-color: #cce6ff;
+  width: 300px;
+  height: 70px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+/* line 310, /Users/n/finalcf/app/assets/stylesheets/static_pages.scss */
+.insearchf {
+  margin-left: 20px;
+}
+/* line 6, /Users/n/finalcf/app/assets/stylesheets/users.scss */
+.signup {
+  margin: auto;
+  background-color: #cce6ff;
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+/* line 18, /Users/n/finalcf/app/assets/stylesheets/users.scss */
+.form-inputs {
+  margin-left: 45px;
+}
+
+/* line 23, /Users/n/finalcf/app/assets/stylesheets/users.scss */
+.form-actions .btn {
+  background-color: #3366ff;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
