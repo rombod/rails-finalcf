@@ -80,11 +80,12 @@
 
 
 <%= form_tag("/products", method: "get") do %>
-         <%= label_tag(:q, "Search for:") %>
+<div class='searchfor'>
+         <%= label_tag(:q, "Search for:", :class => "insearchf") %>
          <%= text_field_tag(:q) %>
          <%= submit_tag("Search") %>
          <% end %>
-
+</div>
 
 
 

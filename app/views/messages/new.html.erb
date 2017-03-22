@@ -1,21 +1,30 @@
+
+
 <%= form_for @message, url: contact_path do |message_form| %>
+<div class='messagepage'>
   <fieldset>
-    <div class="field">
+    <div class="form-group">
+      <label class="control-label " for="name">Name</label>
       <%= message_form.text_field :name, placeholder: "Name" %>
     </div>
     
-    <div class="field">
+    <div class="form-group">
+    <label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
       <%= message_form.email_field :email, placeholder: "Email"%>
     </div>
     
-    <div class="field">
+    <div class="form-group">
+    <label class="control-label " for="message">Message</label>
       <%= message_form.text_area :content, placeholder: "Message"%>
     </div>
   </fieldset>
   
   <fieldset>
-    <div class="field">
-      <%= message_form.submit "Send" %>
+    <div class="form-group">
+    
+      <%= message_form.submit "Send", :class => "btn btn-primary" %>
     </div>
   </fieldset>
 <% end %>
+
+</div><!--messagepage end-->
