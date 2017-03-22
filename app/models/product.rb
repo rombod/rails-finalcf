@@ -3,6 +3,8 @@ class Product < ApplicationRecord
 
      has_many :comments
 
+     validates :name, presence: true
+
 	 def self.search(search_term)
 	 if Rails.env.development?
      Product.where("name LIKE ?", "%#{search_term}%")
@@ -20,5 +22,7 @@ end
 def average_rating
   comments.average(:rating).to_f
 end
+
+
 
 end
