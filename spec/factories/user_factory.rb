@@ -15,3 +15,6 @@ sequence(:email) { |n| "user#{n}@example.com" }
         
     end  
 end
+
+
+
